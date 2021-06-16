@@ -15,13 +15,17 @@
     <?php
       if(isset($_GET['vistas'])){
         switch($_GET['vistas']){
-          case 'home':
+          case 'registro':
+            require_once 'view/registro.php';
+            break;
+          case 'login':
+            require_once 'view/login.php';
             break;
           default:
             break;
         }
       }else{
-        
+
       }
     ?>
   </body>
