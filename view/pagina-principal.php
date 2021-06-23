@@ -92,16 +92,6 @@
             </div>
         </div>
     </div>
-    <script>
-        $(document).ready(() => {
-            $('#boton_agregar').hide();
-            $('#vista_tareas').hide();
-            $('#boton_lista_tareas').click(() => {
-                $('#vista_jumbotron').hide();
-                $('#boton_agregar').show();
-                $('#vista_tareas').show();
-            });
-        });
-    </script>
+    <script src="../manager/manager-pagina-principal.js"></script>
 </body>
 </html>

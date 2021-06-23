@@ -90,3 +90,4 @@
         </div>
     </div>
 </div>
+<script src="../manager/manager-registro.js"></script>

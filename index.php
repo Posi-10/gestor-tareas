@@ -31,7 +31,7 @@
                     break;
             }
         } else {
-            echo 'Estas en el Index';
+            require_once 'view/inicio-sesion.php';
         }
     ?>
 
