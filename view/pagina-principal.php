@@ -92,6 +92,6 @@
             </div>
         </div>
     </div>
-    <script src="../manager/manager-pagina-principal.js"></script>
+    <script src=manager/manager-pagina-principal.js"></script>
 </body>
 </html>

@@ -31,7 +31,7 @@
                     break;
             }
         } else {
-            require_once 'view/inicio-sesion.php';
+            header('location:inicio-sesion' );
         }
     ?>
 

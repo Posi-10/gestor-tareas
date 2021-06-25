@@ -66,6 +66,14 @@ $(document).ready(() => {
                                     } else {
                                         if ($('#contrasenia').val() == $('#confirmar_contrasenia').val()) {
                                             console.log('Genial!');
+                                            $.ajax({
+                                                type: "POST",
+                                                data: $('#form_registro').serialize(),
+                                                url: "control/control-registro.php",
+                                                success: (respuesta) => {
+                                                    console.log(respuesta);
+                                                }
+                                            });
                                         } else {
                                             console.log('Las contraseñas no coinciden.');
                                         }

@@ -40,4 +40,4 @@
         </div>
     </div>
 </div>
-<script src="../manager/manager-inicio-sesion.js"></script>
+<script src="manager/manager-inicio-sesion.js"></script>
